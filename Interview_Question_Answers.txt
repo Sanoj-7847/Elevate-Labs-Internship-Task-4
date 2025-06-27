@@ -1,0 +1,29 @@
+1. Difference between FileReader and BufferedReader?
+FileReader reads character-by-character. BufferedReader wraps FileReader and reads larger chunks, making it faster.
+
+2. What is try-with-resources?
+A Java feature that automatically closes resources like files after use.
+
+3. How to handle IOException?
+Use try-catch blocks to catch and handle the IOException or declare it using throws.
+
+4. What are checked and unchecked exceptions?
+Checked: Handled at compile-time (e.g., IOException). Unchecked: Runtime exceptions (e.g., NullPointerException).
+
+5. How does file writing work in Java?
+Using classes like FileWriter or BufferedWriter to write data to a file.
+
+6. What is the difference between append and overwrite mode?
+Append: adds data to the end of the file. Overwrite: clears the file and writes new data.
+
+7. What is exception propagation?
+When an exception moves up the call stack from one method to another until it's caught or crashes the program.
+
+8. How to log exceptions?
+Use System.err.println, or better, use logging frameworks like Log4j or java.util.logging.
+
+9. What is a stack trace?
+A stack trace shows the method call hierarchy when an exception occurs, useful for debugging.
+
+10. When to use finally block?
+To execute code (like closing resources) regardless of whether an exception occurred.
